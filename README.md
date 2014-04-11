@@ -2,7 +2,18 @@
 
 Interactive javascript calculator
 
-It uses:
+It has the following features:
+* Addition
+* Subtraction
+* Division
+* Multiplication
+* Square Roots
+* Power
+* Factorials
+* Sums
+
+
+It was built using these cool guys:
 * Jade
 * Less
 * Grunt
