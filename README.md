@@ -1,6 +1,6 @@
-# client-template
+# super-calculator
 
-Serves as a template for client JavaScript applications.
+Interactive javascript calculator
 
 It uses:
 * Jade
