@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 650px;
+}
+h1 {
+  padding: 10px 0 0 10px;
+  font-size: 16px;
+  margin: 0;
+  background-color: #333;
+  color: #e4e4e4;
+  font-weight: 300;
+  text-align: left;
+}
+table {
+  color: #333;
+  margin: 0 auto;
+  font-size: 24px;
+  background-color: #333;
+  padding: 0px;
+  border-spacing: 1px;
+  border-collapse: separate;
+  font-weight: 300;
+  width: 100%;
+}
+#display {
+  text-align: right;
+  font-size: 40px;
+  background-color: #333;
+  color: #e4e4e4;
+  padding: 5px 15px;
+  margin-bottom: 3px;
+}
+.button {
+  text-align: center;
+  padding: 15px;
+  background-color: #f0f0f0;
+}
+.button:hover {
+  background-color: #e2e2e2;
+}
+.operator {
+  background-color: #f1932e;
+  color: #fff;
+}
+.operator:hover {
+  background-color: #de7d28;
+}
+.clear {
+  background-color: #dfdfdf;
+  font-weight: 400;
+}
+.empty {
+  background-color: #dfdfdf;
+}
+.clear:hover {
+  background-color: #c5c4c4;
+}
+#box {
+  background-color: #f1932e;
+  min-height: 100px;
+  color: #fff;
+  padding: 15px 0;
+}
+#instructions {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+#queue {
+  width: 80%;
+  background-color: #333;
+  padding: 15px;
+  margin: 0 auto 25px auto;
+  color: #e4e4e4;
+  font-size: 25px;
+  min-height: 20px;
+}
+#queue > div {
+  padding: 8px 0;
+  border-top: 1px solid #777;
+}
+#queue > div:first-child {
+  border: none;
+}
