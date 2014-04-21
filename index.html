@@ -1,1 +1,68 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Super Calculator</title><link rel="stylesheet" href="css/app.css"></head><body><div id="wrapper"><h1 id="title">Super Calculator</h1><div id="container"><table><tbody><tr><td id="display" colspan="5">0</td></tr><tr><td class="number button">7</td><td class="number button">8</td><td class="number button">9</td><td data-op="add" class="operator button">+</td><td data-op="sum" class="operator button">&#x03A3</td></tr><tr><td class="number button">4</td><td class="number button">5</td><td class="number button">6</td><td data-op="sub" class="operator button">-</td><td data-op="exp" class="operator button">x&#8319;</td></tr><tr><td class="number button">1</td><td class="number button">2</td><td class="number button">3</td><td data-op="mult" class="operator button">*</td><td data-op="root" class="operator button">&#x221a;</td></tr><tr><td class="number button">0</td><td class="decimal button">.</td><td id="convert" class="button">&#xB1;</td><td data-op="div" class="operator button">&#xf7;</td><td data-op="fact" class="operator button">!</td></tr><tr><td class="clear button">C</td><td class="clear button">X</td><td class="push clear button">P</td><td class="empty"></td><td class="empty"></td></tr></tbody></table><div id="box"><div id="instructions">Click "P" to move operators in the waiting area. Once two operators are chosen, select how you want to math them.</div><div id="queue"></div></div></div></div><script src="js/vendor/jquery-2.1.0.js"></script><script src="js/source/main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Super Calculator</title>
+  <link rel="stylesheet" href="css/app.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1 id="title">Super Calculator</h1>
+    <div id="container">
+      <table>
+        <tbody>
+          <tr>
+            <td id="display" colspan="5">0</td>
+          </tr>
+          <tr>
+            <td class="number button">7</td>
+            <td class="number button">8</td>
+            <td class="number button">9</td>
+            <td data-op="add" class="operator button">+</td>
+            <td data-op="sum" class="operator button">&#x03A3</td>
+          </tr>
+          <tr>
+            <td class="number button">4</td>
+            <td class="number button">5</td>
+            <td class="number button">6</td>
+            <td data-op="sub" class="operator button">-</td>
+            <td data-op="exp" class="operator button">x&#8319;</td>
+          </tr>
+          <tr>
+            <td class="number button">1</td>
+            <td class="number button">2</td>
+            <td class="number button">3</td>
+            <td data-op="mult" class="operator button">*</td>
+            <td data-op="root" class="operator button">&#x221a;</td>
+          </tr>
+          <tr>
+            <td class="number button">0</td>
+            <td class="decimal button">.</td>
+            <td id="convert" class="button">&#xB1;</td>
+            <td data-op="div" class="operator button">&#xf7;</td>
+            <td data-op="fact" class="operator button">!</td>
+          </tr>
+          <tr>
+            <td class="clear button">C</td>
+            <td class="clear button">X</td>
+            <td class="push clear button">P</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="box">
+        <div id="instructions">Click "P" to move operators in the waiting area. Once two operators are chosen, select how you want to math them.</div>
+        <div id="queue"></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/jquery-2.1.0.js"></script>
+  <script src="js/source/main.js"></script>
+</body>
+
+</html>
